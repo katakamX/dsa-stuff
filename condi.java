@@ -1,8 +1,12 @@
+import java.util.Scanner;
+
 public class condi 
 {
     public static void main(String[] args)
     {
-        int sal = 2400;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter paisa");
+        int sal = sc.nextInt();
         if(sal > 2399)
         {
             System.out.println("damm you rich $$$$$");
